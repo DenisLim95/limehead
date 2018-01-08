@@ -1,8 +1,9 @@
 h1 {
    color: white;
+   font-size: 40px;
    font-family: 'Merriweather', serif;
 }
 
 body {
-   background-color: grey;
+   background-color: lightgrey;
 }
