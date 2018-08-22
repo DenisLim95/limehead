@@ -6,9 +6,30 @@ app.set("view engine", "ejs");
 app.use(express.static(__dirname + '/public'))
 
 app.get("/", function(req, res) {
-   res.render("landing")
+   res.render("landing");
 });
 
-app.listen(process.env.PORT, process.env.IP, function() {
-   console.log("Website server has started...");
+app.get("/music", function(req, res) {
+   res.render("music");
 });
+
+app.get("/projects", function(req, res) {
+   res.render("projects");
+});
+
+app.get("/profile", function(req, res) {
+   res.render("profile");
+});
+
+app.get("/contact", function(req, res) {
+   res.render("contact");
+});
+
+
+
+// Uncomment this when actually deploying
+// app.listen(process.env.PORT, process.env.IP, function() {
+//    console.log("Website server has started...");
+// });
+
+app.listen(3000,() => console.log("Locally running node server on port 3000..."))

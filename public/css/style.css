@@ -1,9 +1,44 @@
 h1 {
-   color: white;
-   font-size: 40px;
-   font-family: 'Merriweather', serif;
+   color: lightgrey;
+   font-size: 70px;
+   font-family: 'Oswald', sans-serif;
+   text-align: center;
 }
 
-body {
+#first-half {
+   background-color: white;
+}
+
+#second-half {
    background-color: lightgrey;
+}
+
+a {
+   color: grey;
+}
+
+#title {
+   margin-top: 200px;
+}
+
+#second-title {
+   color: black;
+   opacity: 0.68;
+   font-size: 15px;
+   text-align: center;
+}
+
+hr {
+    border: none;
+    height: 5px;
+    /* Set the hr color */
+    background-color: #B6B6B6; /* Modern Browsers */
+    width: 600px;
+}
+
+img {
+   display: block;
+   margin: 0 auto;
+   margin-top: 120px;
+   opacity: 0.8
 }
