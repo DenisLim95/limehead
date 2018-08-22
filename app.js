@@ -32,4 +32,6 @@ app.get("/contact", function(req, res) {
 //    console.log("Website server has started...");
 // });
 
-app.listen(3000,() => console.log("Locally running node server on port 3000..."))
+app.listen( process.env.PORT || 3000, process.env.IP, function() {
+   console.log("Website server has started...");
+});
