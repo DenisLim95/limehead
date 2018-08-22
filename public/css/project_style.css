@@ -11,3 +11,7 @@ a {
 div {
    margin: 20px;
 }
+
+.card li {
+	font-size: 13.5px;
+}

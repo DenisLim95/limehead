@@ -33,5 +33,5 @@ app.get("/contact", function(req, res) {
 // });
 
 app.listen( process.env.PORT || 3000, process.env.IP, function() {
-   console.log("Website server has started...");
+   console.log("Website server has started online or at port 3000...");
 });
